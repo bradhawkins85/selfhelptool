@@ -14,3 +14,8 @@ Create the registry key HKEY_LOCAL_MACHINE\SOFTWARE\My Company\DIYTools\ then un
 
 To encode a script, change the script name, as this will be used as the file name for the completed files and edit the $Command to your script.
 The original script will be output as a PS1 file and the encoded command will be output in a text file.
+
+To encode the images go to https://www.base64-image.de/
+Upload the image you want then wait for the code to generate
+Select View Code and copy the "For Use In <img> elements" section, removing "data:image/png;base64,"
+This is the Icon string to use in the registry.

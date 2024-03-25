@@ -1,0 +1,21 @@
+Windows Registry Editor Version 5.00
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\My Company]
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\My Company\DIYTools]
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\My Company\DIYTools\1,a6f156fd-be6f-4c7a-a1be-a72fa149f471]
+"Icon"="Base64 Encoded Image"
+"Name"="Script name"
+"Script"="Encoded powershell command"
+"Enabled"=dword:00000001
+"Description"="First line displayed in form"
+"Description 2"="Second line displayed in form"
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\My Company\DIYTools\2,89a0216a-1318-40d2-b346-a08f2b2545bc]
+"Icon"="Base64 Encoded Image"
+"Name"="Script name"
+"Script"="Encoded powershell command"
+"Enabled"=dword:00000001
+"Description"="First line displayed in form"
+"Description 2"="Second line displayed in form"
